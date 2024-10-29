@@ -17,7 +17,7 @@ public class DisparoFlash : MonoBehaviour
 
     IEnumerator FlashEffect()
     {
-        shootSound.Play();
+        //shootSound.Play();
 
         // Activa el flash
         flashLight.enabled = true;
