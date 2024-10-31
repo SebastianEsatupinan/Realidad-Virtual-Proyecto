@@ -27,6 +27,8 @@ public class EnemyAI : MonoBehaviour
     {
         float distanceToPlayer = Vector3.Distance(player.position, transform.position);
 
+        Debug.Log(distanceToPlayer);
+
         // Verifica si el jugador está dentro del rango de detección
         if (distanceToPlayer <= detectionRadius)
         {
